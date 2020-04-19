@@ -1,0 +1,16 @@
+political_decisions = {
+	declare_fascist_dictatorship = {
+		potential = {
+			# year = 1900
+			always = yes
+			human = yes
+		}
+		allow = {
+			political_thought = 6
+		}
+		effect = {
+			government = fascist_dictatorship
+			ruling_party_ideology = fascist
+		}
+	}
+}
